@@ -2318,7 +2318,7 @@ function Luna:CreateWindow(WindowSettings)
 
 	LunaUI.Enabled = true
 
-	BlurModule(Main)
+	-- BlurModule(Main)
 
 	if WindowSettings.KeySystem then
 		local KeySettings = WindowSettings.KeySettings
