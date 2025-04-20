@@ -2094,7 +2094,7 @@ function Luna:Notification(data) -- action e.g open messages
 		newNotification.Parent = Notifications
 		newNotification.LayoutOrder = #Notifications:GetChildren()
 		newNotification.Visible = false
-		BlurModule(newNotification)
+		-- BlurModule(newNotification)
 
 		-- Set Data
 		newNotification.Title.Text = data.Title
